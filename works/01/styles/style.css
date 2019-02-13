@@ -1,0 +1,25 @@
+:root{
+  --base-color-value: 0;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow:hidden;
+}
+
+.box{
+  transition: 0.1s all ease-in;
+  transform: rotateZ(-45deg);
+  background-color: hsla(var(--base-color-value), 100%, 50%, 1); 
+  width: 100px;
+  height: 100px; 
+}  
+
+.box:nth-child(2){
+  margin-left: 0%;
+  background-color: hsla(calc(var(--base-color-value) + 10), 90%, 40%, 1); 
+}
