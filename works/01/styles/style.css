@@ -15,8 +15,8 @@
   transition: 0.1s all ease-in;
   transform: rotateZ(-45deg);
   background-color: hsla(var(--base-color-value), 100%, 50%, 1); 
-  width: 100px;
-  height: 100px; 
+  width: 200px;
+  height: 200px; 
 }  
 
 .box:nth-child(2){
