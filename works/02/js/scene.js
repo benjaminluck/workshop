@@ -44,3 +44,4 @@ function freezeMotion(event) {
 window.addEventListener('deviceorientation', handleMotion);
 window.addEventListener('mousemove', handleMotion);
 window.addEventListener('click', freezeMotion); 
+window.addEventListener('touchstart', freezeMotion); 

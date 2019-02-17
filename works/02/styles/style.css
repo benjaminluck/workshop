@@ -5,8 +5,7 @@ body{
 }
 
 .cross{
-  top: 80px;
-  left: 55%;
+  top: 0px;
   position: absolute;
   width: 10px;
   height: 100vh;
@@ -14,10 +13,17 @@ body{
 }
 
 .cross.left{
-  margin-left: -20%;
+  left:40%;
 }
+
 .cross.right{
-  margin-left: 20;
+  left:55%;
+}
+
+.cross-container{
+  display: flex;
+  padding: 0% 40%;
+  width: 100%;
 }
 
 .ground{
