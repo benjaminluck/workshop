@@ -9,10 +9,6 @@ TODO:
   - Recreating the plates from the book (2 solid colour rectangles, 2 Xs, 1 rectangle connecting those Xs)
   - Make the hue shift again, this time by scrolling 
 
-
-General notes:
-- A list of questions to research should be compiled, so a session can started by directly selecting one of those questions from the list.
-
 Learings about previous session:
 -  The previous session seemed to lack a clear goal, it's an interactive aesthetic work but it does not seem to answer a question. Perhaps a question was not clearly formulated in the first place?
 - Transition makes the interactie fuzzy: although gradually shifting the hue over a fixed transition time makes the aesthetic perhaps more appealing, the feeling of controlling the hue of the two shapes seems to not come alive as much.
@@ -20,6 +16,4 @@ Learings about previous session:
 Notes after session:
 - Recreating the exact plate as in the book was not achieved due to time constraints and because of the intention to keep the works responsive for all screen sizes. As a result the two connecting crosses where replaced by two lines overlapping the two works. Although this somewhat conveys the same effect, it does not seem to do the exercise justice.
 
-- The initial question as posed by Albers should be written in the descriptio #todo
-- Move notes about the general workshop proces to a separate (general) after a workshop. #todo
 
