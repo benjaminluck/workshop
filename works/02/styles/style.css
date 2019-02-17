@@ -1,0 +1,42 @@
+body{
+  margin: 0px;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.cross{
+  top: 80px;
+  left: 55%;
+  position: absolute;
+  width: 10px;
+  height: 100vh;
+  background-color: hsla(var(--base-color-value), 80%, 70%, 1); 
+}
+
+.cross.left{
+  margin-left: -20%;
+}
+.cross.right{
+  margin-left: 20;
+}
+
+.ground{
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.ground.one{
+  background-color: white;
+  background-color: hsla(var(--base-color-value), 100%, 50%, 1); 
+}
+
+.ground.two{
+  background-color: black;
+  background-color: hsla(calc(var(--base-color-value) + 10), 90%, 40%, 1); 
+}
+
+:root{
+  --base-color-value: 0;
+}
