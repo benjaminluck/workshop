@@ -1,0 +1,72 @@
+body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+:root{
+  --base-color-value: 0;
+  --mute-color-value: #FFFFFF; 
+}
+
+.main-grounds{
+  width: 100%;
+  height: 80%;
+}
+
+.ground{
+  display: flex;
+  float:left;
+  width: 50%;
+  height: 100%;
+}
+
+.inner-rect{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.left .inner-rect{
+  background-color: hsla(calc(var(--base-color-value) + 10),100%,20%,1);
+}
+
+.right .inner-rect{
+  background-color: hsla(calc(var(--base-color-value) + 10),100%,60%,1);
+}
+
+.ground.left{
+  background-color: hsla(calc(var(--base-color-value) + 30),100%,40%,1);
+}
+.ground.right{
+  background-color: hsla(calc(var(--base-color-value) + 60),100%,80%,1);  
+}
+
+.ground.-muted{
+  background-color: var(--mute-color-value) !important; 
+}
+
+.footer-grounds{
+  height: 20%;
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+}
+
+.footer-grounds .bar{
+  margin:auto;
+  height: 20px;
+  width: 60%;
+}
+
+.bar.upper{
+  margin-bottom: 0px;
+  background-color: hsla(calc(var(--base-color-value) + 10),40%,20%,1);
+}
+
+.bar.lower{
+  margin-top: 0px;
+  background-color: hsla(calc(var(--base-color-value) + 10),70%,60%,1);
+}
