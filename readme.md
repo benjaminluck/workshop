@@ -14,6 +14,8 @@ TODO:
   ☐ Set up live reload setup
   ☐ Make a static site frontend indexing all works + descriptions
   ☐ Set up scss compiler
+  ☐ Set up babel to transpile JS
+
 
   Future:
   ☐ Set up Docker environment template for works involving (complex) systems such as databases and software generally not expected to be available on host

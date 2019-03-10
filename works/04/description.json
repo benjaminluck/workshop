@@ -1,7 +1,7 @@
 {
   "number": 4,
   "title": "Light divided by the red, green and blue." ,
-  "date": "20/02/2019",
+  "date": "01/03/2019",
   "series": "01.color",
   "description": "RGB EXPLORATIONS -- having three columns on screen, each having a solid background color. On each of these columns the hexadecimal representation of the background color is shown. In the middle of the screen a rectangle is shown with these three colors (shades of R,G,B) are combined as one color. Mouse/Orientation events control the 'strength' of these three colors."
 }
