@@ -1,0 +1,72 @@
+body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+:root{
+  --base-color-value: 125;
+  --random-color-1: 0;
+  --random-color-2: 0; 
+}
+
+.grounds{
+  width: 80%;
+  height: 70%;
+}
+ 
+.solid-ground{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  background-color: blue;
+}
+
+.solid-ground.B{
+  transform:rotate(90deg);
+}
+
+.solid-ground.A{
+  background-color: var(--random-color-1);
+}
+.solid-ground.B{
+  background-color: var(--random-color-2);
+}
+
+.solid-ground.mixture{
+  background-color: var(--mixture-color);
+  left: 120px;
+  top: -12%;
+}
+
+.circle{
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.circle.one{
+  background-color: hsla(var(--base-color-value),100%,50%,1);
+}
+
+.circle.two{
+  background-color: white;
+}
+
+.circle .dot{
+  background-color: black;
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+}
