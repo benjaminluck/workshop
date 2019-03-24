@@ -1,0 +1,38 @@
+body{
+  overflow: hidden;
+}
+
+html{
+  overflow: hidden;
+}
+
+:root{
+  --background-color: 0; 
+  --rectangle-color: 0;  
+}
+
+.solid-background{
+  background-color: var(--background-color);
+}
+
+.rectangle{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 200px;  
+  margin:auto;
+  display:block;
+  height: 100px;
+  background-color: var(--rectangle-color);
+  mix-blend-mode: multiply;
+}
+
+.rectangle:nth-child(2){
+  top: 25%;
+  left: 35%;
+}
+
+.rectangle:nth-child(3){
+  top: 30%;
+  left: 40%;
+}
