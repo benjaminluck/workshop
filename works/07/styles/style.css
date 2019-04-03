@@ -19,20 +19,20 @@ html{
   position: absolute;
   top: 20%;
   left: 30%;
-  width: 200px;  
+  width: 300px;   
   margin:auto;
   display:block;
-  height: 100px;
+  height: 150px;
   background-color: var(--rectangle-color);
   mix-blend-mode: multiply;
 }
 
 .rectangle:nth-child(2){
-  top: 25%;
+  top: 27.25%;
   left: 35%;
 }
 
 .rectangle:nth-child(3){
-  top: 30%;
+  top: 32.5%;
   left: 40%;
 }
