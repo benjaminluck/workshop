@@ -1,0 +1,7 @@
+{
+  "number": 9,
+  "title": "ColorType",
+  "date": "24/04/2019",
+  "series": "01.color", 
+  "description": "Drawing with letters. Every keyboard character a-z (first), and A-Z (uppercase, last) is mapped to a color analog calculated from a given random base color. A small experiment as a nice little detour from the Interaction of Color. "
+} 
