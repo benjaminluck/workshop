@@ -1,0 +1,6 @@
+ColorType:
+  ☐ Write characters in textarea element
+  ☐ Hide textarea element
+  ☐ Render rectangles for every character in textarea element
+  ☐ Map characters to colors
+  ☐ Render rectangles in color for every character
