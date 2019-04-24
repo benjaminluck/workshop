@@ -1,0 +1,8 @@
+Workshop:
+  ☐ Generate two random colors
+  ☐ Arrange the two randomly generated colors in rectangle
+  ☐ Allow user to colorize the third rectangle
+  ☐ On click/touch: show actual color mixture in the rectangle
+
+General:
+  ☐ Bundle often used functions in helper class
