@@ -1,0 +1,65 @@
+body{
+  overflow: hidden;
+  margin:0px;
+}
+
+html{
+  overflow: hidden;
+}
+
+:root{
+  --background-color: 0; 
+  --rectangle-color: 0;  
+}
+
+.solid-background{
+  background-color: var(--background-color);
+}
+
+.textHold{
+  position: absolute;
+  top:0px;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.canvas{
+  width: 100vw;
+  overlow: hidden;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.rectangle{
+  padding:0px;
+  margin:0px;
+  border:0px;
+  display:block;
+  color: transparent;
+  width: calc(100vw / 8);
+  height: calc(100vh / 7);   
+}
+
+.rectangle:last-child{
+  animation: animateElement ease-in .15s;
+  animation-iteration-count: 1;
+}
+
+@keyframes animateElement{ 
+  0% {
+    opacity:0;
+    width:0;
+    transform:  scale(0.4);
+  }
+  50%{
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity:1;
+    width: calc(100vw / 8);
+    transform:  scale(1);
+  }
+}
